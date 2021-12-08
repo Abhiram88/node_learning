@@ -1,0 +1,23 @@
+{
+  "name": "sync_async",
+  "version": "1.0.0",
+  "description": "tutorial",
+  "main": "sync_async.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "sync",
+    "async"
+  ],
+  "author": "Abhiram",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "2-express-tutorial": "file:tutorial/node-express-course/02-express-tutorial",
+    "lodash": "^4.17.21"
+  }
+}
